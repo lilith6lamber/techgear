@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techgear</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet preload" as="style" href="preload/fonts.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/libs.min.css">
+
+</head>
+
+<body>
+    <div id="loadingScreen"></div>
+    <header class="header">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center">
+        <a href="index.html" class="header_brand brand">techgear</a>
+        <nav class="header_nav">
+            <ul class="header_nav-list">
+                <li class="list-item">
+                    <a href="#home">home</a>
+                </li>
+                <li class="list-item">
+                    <a href="#products">products</a>
+                </li>
+                <li class="list-item">
+                    <a href="#services">services</a>
+                </li>
+                <li class="list-item">
+                    <a href="#members">members</a>
+                </li>
+                <li class="list-item">
+                    <a href="#contacts">contacts</a>
+                </li>
+            </ul>
+        </nav>
+        <button type="button" class="hamburger">
+            <span class="line line--1"></span>
+            <span class="line line--2"></span>
+            <span class="line line--3"></span>
+        </button>
+    </div>
+</header>
+    <main>
+        <section class="hero" id="home">
+            <div class="container d-flex flex-wrap align-items-center">
+                <div class="hero_media col-12 col-md-6" data-aos="fade-up" data-aos-delay="1000"
+                    data-aos-duration="1000" data-aos-once="true">
+                    <picture>
+                        <source type="image/webp" data-srcset="img/g502hero--sm.webp 576w, img/g502hero.webp"
+                            srcset="img/g502hero--sm.webp 576w, img/g502hero.webp" data-sizes="100w" sizes="100w" />
+                        <img class="lazy hero_media-img" alt="G502 HERO WIRELESS" data-src="img/g502hero.png"
+                            src="img/g502hero.png" data-srcset="img/g502hero--sm.png 576w, img/g502hero.png"
+                            srcset="img/g502hero--sm.png 576w, img/g502hero.png" data-sizes="100w" sizes="100w" />
+                    </picture>
+                    <span class="hero_media-model blue">G502</span>
+                </div>
+                <div class="hero_info col-12 col-md-6">
+                    <h1 class="hero_info-title" data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1000"
+                        data-aos-once="true">G502 HERO</h1>
+                    <p class="hero_info-subtitle" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000"
+                        data-aos-once="true">
+                        Logitech's High Performance Wireless Gaming Mouse
+                    </p>
+                    <p class="hero_info-description" data-aos="fade-up" data-aos-delay="1200" data-aos-duration="1000"
+                        data-aos-once="true">
+                        The Razer Ouroboros is outfitted with the most advanced & configurable sensor yet, the all-new
+                        8200dpi 4G laser sensor.
+                        It tracks so precisely, you always hit targets exactly where you need to.
+                    </p>
+                    <span class="hero_info-price blue" data-aos="fade-up" data-aos-delay="1300" data-aos-duration="1000"
+                        data-aos-once="true">
+                        USD 99.99
+                    </span>
+                    <div class="hero_info-action d-flex flex-wrap justify-content-center justify-content-sm-start">
+                        <a class="btn btn-cart blue-bg col-10 col-sm-auto" href="javascript:void(0)" data-aos="fade-up" data-aos-delay="1400"
+                    data-aos-duration="700" data-aos-once="true">
+                            <i class="icon-cart"></i>
+                            Buy now
+                        </a>
+                        <a class="btn btn-info col-10 col-sm-auto" href="javascript:void(0)" data-aos="fade-up" data-aos-delay="1500"
+                    data-aos-duration="700" data-aos-once="true">
+                            <i class="icon-info"></i>
+                            Learn more
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products" id="products">
+            <div class="container">
+                <div class="products_header section_header">
+                    <h2 class="section_header-title blue">products</h2>
+                    <p class="section_header-subtitle" data-aos="fade-up" data-aos-duration="700">Which type of gear are
+                        you looking for?</p>
+                    <a class="section_header-link blue" href="javascript:void(0)">
+                        View more
+                        <i class="icon-arrow_forward"></i>
+                    </a>
+                </div>
+                <ul class="products_list row align-items-md-baseline">
+                    <li class="products_list-item col-12 col-md-4" data-aos="fade-up" data-aos-duration="700"
+                        data-aos-delay="300">
+                        <div class="wrapper">
+                            <div class="products_list-item_img">
+                                <picture>
+                                    <source data-srcset="img/gaming.webp" srcset="img/gaming.webp" type="image/webp">
+                                    <img class="lazy" data-src="img/gaming.png" src="img/gaming.png" alt="Gaming">
+                                </picture>
+                            </div>
+                            <div class="card"></div>
+                            <a class="products_list-item_category" href="javascript:void(0)">Gaming</a>
+                        </div>
+                    </li>
+                    <li class="products_list-item col-12 col-md-4" data-aos="fade-up" data-aos-duration="700"
+                        data-aos-delay="400">
+                        <div class="wrapper">
+                            <div class="products_list-item_img">
+                                <picture>
+                                    <source data-srcset="img/design.webp" srcset="img/design.webp" type="image/webp">
+                                    <img class="lazy" data-src="img/design.png" src="img/design.png"
+                                        alt="Graphic Design">
+                                </picture>
+                            </div>
+                            <div class="card"></div>
+                            <a class="products_list-item_category" href="javascript:void(0)">Graphic Design</a>
+                        </div>
+                    </li>
+                    <li class="products_list-item col-12 col-md-4" data-aos="fade-up" data-aos-duration="700"
+                        data-aos-delay="500">
+                        <div class="wrapper">
+                            <div class="products_list-item_img">
+                                <picture>
+                                    <source data-srcset="img/office.webp" srcset="img/office.webp" type="image/webp">
+                                    <img class="lazy" data-src="img/office.png" src="img/office.png"
+                                        alt="Office & Others">
+                                </picture>
+                            </div>
+                            <div class="card"></div>
+                            <a class="products_list-item_category" href="javascript:void(0)">Office & Others</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="services" id="services">
+            <div class="container">
+                <div class="services_header section_header">
+                    <h2 class="section_header-title blue">services</h2>
+                    <p class="section_header-subtitle" data-aos="fade-up" data-aos-duration="700">We provide more than
+                        high-tech products!</p>
+                    <a class="section_header-link blue" href="javascript:void(0)">
+                        View more
+                        <i class="icon-arrow_forward"></i>
+                    </a>
+                </div>
+                <ul class="services_list row gy-5 g-md-4 g-xl-5">
+                    <li class="services_list-item col-12 col-md-6" data-aos="fade-up" data-aos-duration="700"
+                        data-aos-delay="200">
+                        <div
+                            class="wrapper d-flex flex-column flex-sm-row flex-md-column flex-lg-row flex-wrap align-items-center">
+                            <div class="services_list-item_img col-sm-4 col-md-12 col-lg-4">
+                                <picture>
+                                    <source data-srcset="img/guarantee.webp" srcset="img/guarantee.webp"
+                                        type="image/webp">
+                                    <img class="lazy" data-src="img/guarantee.png" src="img/guarantee.png"
+                                        alt="Lifetime Guarantee">
+                                </picture>
+                            </div>
+                            <div class="services_list-item_text col-sm-8 col-md-12 col-lg-8">
+                                <h2 class="title">Lifetime Guarantee</h2>
+                                <p class="description">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard
+                                    dummy text ever since the 1500s.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="services_list-item col-12 col-md-6" data-aos="fade-up" data-aos-duration="700"
+                        data-aos-delay="300">
+                        <div
+                            class="wrapper d-flex flex-column flex-sm-row flex-md-column flex-lg-row flex-wrap align-items-center">
+                            <div class="services_list-item_img col-sm-4 col-md-12 col-lg-4">
+                                <picture>
+                                    <source data-srcset="img/price.webp" srcset="img/price.webp" type="image/webp">
+                                    <img class="lazy" data-src="img/price.png" src="img/price.png" alt="Good Price">
+                                </picture>
+                            </div>
+                            <div class="services_list-item_text col-sm-8 col-md-12 col-lg-8">
+                                <h2 class="title">Good Price</h2>
+                                <p class="description">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard
+                                    dummy text ever since the 1500s.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="services_list-item col-12 col-md-6" data-aos="fade-up" data-aos-duration="700"
+                        data-aos-delay="400">
+                        <div
+                            class="wrapper d-flex flex-column flex-sm-row flex-md-column flex-lg-row flex-wrap align-items-center">
+                            <div class="services_list-item_img col-sm-4 col-md-12 col-lg-4">
+                                <picture>
+                                    <source data-srcset="img/updates.webp" srcset="img/updates.webp" type="image/webp">
+                                    <img class="lazy" data-src="img/updates.png" src="img/updates.png"
+                                        alt="Free Software Updates">
+                                </picture>
+                            </div>
+                            <div class="services_list-item_text col-sm-8 col-md-12 col-lg-8">
+                                <h2 class="title">Free Software Updates</h2>
+                                <p class="description">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard
+                                    dummy text ever since the 1500s.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="services_list-item col-12 col-md-6" data-aos="fade-up" data-aos-duration="700"
+                        data-aos-delay="500">
+                        <div
+                            class="wrapper d-flex flex-column flex-sm-row flex-md-column flex-lg-row flex-wrap align-items-center">
+                            <div class="services_list-item_img col-sm-4 col-md-12 col-lg-4">
+                                <picture>
+                                    <source data-srcset="img/support.webp" srcset="img/support.webp" type="image/webp">
+                                    <img class="lazy" data-src="img/support.png" src="img/support.png"
+                                        alt="24/7 Support">
+                                </picture>
+                            </div>
+                            <div class="services_list-item_text col-sm-8 col-md-12 col-lg-8">
+                                <h2 class="title">24/7 Support</h2>
+                                <p class="description">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard
+                                    dummy text ever since the 1500s.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="members" id="members">
+            <div class="container">
+                <div class="members_header section_header">
+                    <h2 class="section_header-title blue">members</h2>
+                    <p class="section_header-subtitle" data-aos="fade-up" data-aos-duration="700">We proudly introduce
+                        our powerful members</p>
+                    <a class="section_header-link blue" href="javascript:void(0)">
+                        View more
+                        <i class="icon-arrow_forward"></i>
+                    </a>
+                </div>
+                <div class="slider-wrapper" data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">
+                    <ul class="members_slider">
+                        <li class="members_slider-slide">
+                            <div class="wrapper d-flex flex-column">
+                                <picture>
+                                    <source data-srcset="img/electros.webp" srcset="img/electros.webp"
+                                        type="image/webp">
+                                    <img class="tns-lazy-img" data-src="img/electros.png" src="img/electros.png"
+                                        alt="Electros">
+                                </picture>
+                                <span class="member-brand">Electros Softwares</span>
+                            </div>
+                        </li>
+                        <li class="members_slider-slide">
+                            <div class="wrapper d-flex flex-column">
+                                <picture>
+                                    <source data-srcset="img/teratech.webp" srcset="img/teratech.webp"
+                                        type="image/webp">
+                                    <img class="tns-lazy-img" data-src="img/teratech.png" src="img/teratech.png"
+                                        alt="Tera Tech Lab">
+                                </picture>
+                                <span class="member-brand">Tera Tech Lab</span>
+                            </div>
+                        </li>
+                        <li class="members_slider-slide">
+                            <div class="wrapper d-flex flex-column">
+                                <picture>
+                                    <source data-srcset="img/tcpredator.webp" srcset="img/tcpredator.webp"
+                                        type="image/webp">
+                                    <img class="tns-lazy-img" data-src="img/tcpredator.png" src="img/tcpredator.png"
+                                        alt="TC Predator Gaming">
+                                </picture>
+                                <span class="member-brand">TC Predator Gaming</span>
+                            </div>
+                        </li>
+                        <li class="members_slider-slide">
+                            <div class="wrapper d-flex flex-column">
+                                <picture>
+                                    <source data-srcset="img/spaceplay.webp" srcset="img/spaceplay.webp"
+                                        type="image/webp">
+                                    <img class="tns-lazy-img" data-src="img/spaceplay.png" src="img/spaceplay.png"
+                                        alt="SpacePlay">
+                                </picture>
+                                <span class="member-brand">SpacePlay</span>
+                            </div>
+                        </li>
+                        <li class="members_slider-slide">
+                            <div class="wrapper d-flex flex-column">
+                                <picture>
+                                    <source data-srcset="img/electros.webp" srcset="img/electros.webp"
+                                        type="image/webp">
+                                    <img class="tns-lazy-img" data-src="img/electros.png" src="img/electros.png"
+                                        alt="Electros">
+                                </picture>
+                                <span class="member-brand">Electros Softwares</span>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="members_slider-controls">
+                        <a class="slider-control blue-bg" href="javascript:void(0)">
+                            <i class="icon-arrow_left"></i>
+                        </a>
+                        <a class="slider-control blue-bg" href="javascript:void(0)">
+                            <i class="icon-arrow_right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts" id="contacts">
+            <div class="container">
+                <div class="contacts_header section_header">
+                    <h2 class="section_header-title blue">contacts</h2>
+                    <p class="section_header-subtitle" data-aos="fade-up" data-aos-duration="700">Some ways for you to
+                        contact us</p>
+                    <a class="section_header-link blue" href="javascript:void(0)">
+                        View more
+                        <i class="icon-arrow_forward"></i>
+                    </a>
+                </div>
+                <div class="wrapper d-flex flex-wrap justify-content-center justify-content-md-between">
+                    <div class="contacts_info" data-aos="fade-right" data-aos-duration="700" data-aos-delay="200">
+                        <a class="contacts_info-brand brand" href="index.html">techgear</a>
+                        <div class="contacts_info-main">
+                            <h5 class="contacts-title">Direct Channels</h5>
+                            <a class="link link--tel" href="tel:+50912345678">
+                                <i class="icon-phone blue"></i>
+                                +509 1234 5678
+                            </a>
+                            <a class="link link--mail" href="mailto:support@techgear.io">
+                                <i class="icon-mail blue"></i>
+                                support@techgear.io
+                            </a>
+                        </div>
+                        <div class="contacts_info-socials">
+                            <h5 class="contacts-title">Social Media</h5>
+                            <ul
+                                class="contacts_info-socials_list d-flex justify-content-center align-items-center blue">
+                                <li class="list-item">
+                                    <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">
+                                        <i class="icon-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
+                                        <i class="icon-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+                                        <i class="icon-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://telegram.com/" target="_blank" rel="noopener noreferrer">
+                                        <i class="icon-telegram"></i>
+                                    </a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                        <i class="icon-github"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="contacts_form col-12 col-md-8 col-lg-6" data-aos="fade-up" data-aos-duration="700"
+                        data-aos-delay="200">
+                        <h5 class="contacts-title contacts-title--form">Feel free to send us your message</h5>
+                        <form class="contacts_form-form d-flex flex-wrap" action="POST">
+                            <div class="row gx-1 col-12 justify-content-sm-between">
+                                <input class="contacts_form-form_field col-12 col-sm-auto required" type="text"
+                                    name="userNameFeedback" id="userNameFeedback" placeholder="Your name (required)">
+                                <input class="contacts_form-form_field col-12 col-sm-auto required email" type="text"
+                                    name="userEmailFeedback" id="userEmailFeedback" placeholder="Your email (required)">
+                            </div>
+                            <input class="contacts_form-form_field col-12 optional" type="text" name="subjectFeedback"
+                                id="subjectFeedback" placeholder="Subject">
+                            <textarea class="contacts_form-form_field col-12 textarea required" name="messageFeedback"
+                                id="messageFeedback" placeholder="Message (required)"></textarea>
+                            <button class="contacts_form-form_btn blue-bg col-12" type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+    <div class="container">
+        <nav class="footer_nav d-flex flex-wrap justify-content-md-between justify-content-lg-around">
+            <div class="footer_nav-group col-12 col-sm-6 col-md-auto">
+                <h4 class="footer_nav-group_title">Products</h4>
+                <ul class="footer_nav-group_list">
+                    <li class="list-item">
+                        <a href="javascript:void(0)">Gaming</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="javascript:void(0)">Graphic Design</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="javascript:void(0)">Office</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="javascript:void(0)">Family</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="javascript:void(0)">Personalized</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_nav-group col-12 col-sm-6 col-md-auto">
+                <h4 class="footer_nav-group_title">Showrooms</h4>
+                <ul class="footer_nav-group_list">
+                    <li class="list-item">
+                        <a href="javascript:void(0)">Showroom Washington, D.C.</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="javascript:void(0)">Showroom New York City</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="javascript:void(0)">Showroom San Francisco</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="javascript:void(0)">Showroom Hoston</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_nav-group col-12 col-sm-6 col-md-auto">
+                <h4 class="footer_nav-group_title">Family members</h4>
+                <ul class="footer_nav-group_list">
+                    <li class="list-item">
+                        <a href="javascript:void(0)">Electros Softwares</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="javascript:void(0)">Tera Tech Labư</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="javascript:void(0)">TC Predator Gaming</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="javascript:void(0)">SpacePlay</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="javascript:void(0)">V-Poweration</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="javascript:void(0)">AX3 AI System</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_nav-group col-12 col-sm-6 col-md-auto">
+                <h4 class="footer_nav-group_title">Help center</h4>
+                <ul class="footer_nav-group_list">
+                    <li class="list-item">
+                        <a href="javascript:void(0)">FAQs</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="javascript:void(0)">Terms of Use</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="javascript:void(0)">Privacy Policy</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <p class="footer_copy">
+            Copyright &copy; 2020 TechGear Inc. All rights reserved
+        </p>
+    </div>
+    <script src="js/bundle.js"></script>
+</footer>
+</body>
+
+</html>

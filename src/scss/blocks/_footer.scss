@@ -1,0 +1,55 @@
+.footer {
+    background: $deepblack;
+    padding: 55px 0 30px;
+    font-size: 14px;
+    text-align: center;
+    color: rgba(#fff, 0.5);
+    &_nav {
+        &-group {
+            &_title {
+                font-weight: $bold;
+                line-height: 19px;
+                margin-bottom: 30px;
+                text-transform: uppercase;
+            }
+            &_list {
+                margin-bottom: 30px;
+                .list-item {
+                    margin-bottom: 10px;
+                    &:last-of-type {
+                        margin-bottom: 0;
+                    }
+                    a {
+                        transition: color 0.5s ease;
+                        &:hover,
+                        &:focus {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &_copy {
+        text-transform: uppercase;
+        margin-top: 69px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 575.98px) {
+    .footer {
+        &_copy {
+            font-size: 14px;
+        }
+    }
+}
+
+@media screen and (min-width: 767.98px) {
+    .footer {
+        text-align: left;
+        &_copy {
+            text-align: center;
+        }
+    }
+}

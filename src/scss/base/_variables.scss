@@ -1,0 +1,88 @@
+$blue: #19b5fe;
+$black: #222;
+$deepblack: #111;
+
+$semi: 600;
+$bold: 700;
+$heavy: 800;
+
+.blue,
+.icon {
+    color: $blue;
+}
+
+.blue-bg {
+    background-color: $blue;
+}
+
+.brand {
+    text-transform: lowercase;
+    position: relative;
+    font-weight: $heavy;
+    font-size: 32px;
+    display: inline-block;
+    transition: color .3s ease;
+    &:after {
+        content: "";
+        transition: border-color .3s ease;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 12px 18px 0 0;
+        bottom: -7px;
+        right: -20px;
+        border-color: $blue transparent transparent transparent;
+    }
+    &:hover,
+    &:focus {
+        color: $blue;
+        &:after {
+            border-color: #fff transparent transparent transparent;
+        }
+    }
+}
+
+.section {
+    &_header {
+        text-align: center;
+        margin-bottom: 60px;
+        position: relative;
+        padding-top: 30px;
+        &-title {
+            font-size: 54px;
+            letter-spacing: 2px;
+            font-weight: $heavy;
+            text-transform: uppercase;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0.2;
+        }
+        &-subtitle {
+            font-size: 28px;
+            line-height: 37px;
+        }
+        &-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            line-height: 19px;
+            margin-top: 15px;
+            i {
+                font-size: 24px;
+                margin-left: 5px;
+                transition: margin-left 0.5s ease;
+            }
+            &:hover,
+            &:focus {
+                text-shadow: 1px 1px 5px rgba($blue, 0.7);
+                i {
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
